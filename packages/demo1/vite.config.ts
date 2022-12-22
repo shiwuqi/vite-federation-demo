@@ -15,5 +15,8 @@ export default defineConfig({
         siva: "http://localhost:4002/assets/remoteEntry.js",
       },
     }),
-  ]
+  ],
+  build: {
+    target: 'esnext'
+  }
 })

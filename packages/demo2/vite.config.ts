@@ -18,5 +18,8 @@ export default defineConfig({
         './Button': './src/components/Button/index.tsx',
       }
     })
-  ]
+  ],
+  build: {
+    target: 'esnext'
+  }
 })
